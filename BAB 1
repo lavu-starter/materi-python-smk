@@ -1,0 +1,62 @@
+Python adalah bahasa pemrograman yang mudah dipelajari, fleksibel, dan serbaguna. Dalam administrasi jaringan, Python banyak digunakan untuk 
+1.Otomatisasi konfigurasi perangkat jaringan (switch, router, firewall).
+2.Monitoring jaringan (memeriksa konektivitas, ping, bandwidth).
+3.Pengolahan log (menganalisis log server atau router).
+4.Membuat skrip sederhana untuk mengurangi pekerjaan manual.
+Contoh penggunaan nyata:
+1.Mengecek status IP secara otomatis.
+2.Membuat bot untuk mengirim notifikasi jika server mati.
+3.Mengatur konfigurasi banyak perangkat secara sekaligus.
+Mengapa Python untuk Jaringan?
+Keunggulan Python dalam dunia jaringan:
+Sintaks mudah dibaca → mirip bahasa manusia.
+Banyak pustaka (library) → seperti os, subprocess, socket, dan pustaka pihak ketiga seperti paramiko dan netmiko.
+Mendukung multi-platform → bisa dijalankan di Windows, Linux, atau macOS.
+Komunitas besar → banyak tutorial dan dokumentasi gratis.
+
+ Instalasi Python
+Cek apakah Python sudah terpasang
+Buka Command Prompt atau Terminal lalu ketik:
+1.python --version
+2.Pastikan pip terpasang (Python Package Manager) pip --version
+
+Menjalankan Python adaTiga cara utama:
+1.Interaktif di Terminal
+  ketik (python)
+2.Buat file test.py dengan contoh print("Hello, Network!")
+3.Ketik di Terminal python test.py
+
+Dasar Pemrograman Python
+1.Menampilkan Output
+  print("Selamat datang di kelas Administrasi Infrastruktur Jaringan!")
+2.Variabel
+  ip_address = "192.168.1.1"
+  hostname = "Server-SMK"
+  print("IP:", ip_address)
+  print("Hostname:", hostname)
+3.Tipe Data
+  # String
+  device = "Router"
+  # Integer
+  port = 22
+  # Float
+  bandwidth = 100.5
+  # Boolean
+  status = True
+4.Input dari Pengguna
+  nama = input("Masukkan nama Anda: ")
+  print("Halo,", nama)
+
+Contoh Program Sederhana untuk Jaringan
+import os
+
+target = "google.com"
+response = os.system(f"ping -n 1 {target}")  # Windows
+# response = os.system(f"ping -c 1 {target}")  # Linux/Mac
+
+if response == 0:
+    print(f"{target} dapat dihubungi.")
+else:
+    print(f"{target} tidak dapat dihubungi.")
+
+
