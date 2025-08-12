@@ -1,6 +1,7 @@
-# 📘 Materi Bab 1 – Pengenalan Python untuk Administrasi Infrastruktur Jaringan
+# 📘 Materi Python – Administrasi Infrastruktur Jaringan
 
 ## 📑 Daftar Isi
+### Bab 1 – Pengenalan Python untuk Administrasi Infrastruktur Jaringan
 1. [Pendahuluan](#1-pendahuluan)
 2. [Mengapa Python untuk Jaringan](#2-mengapa-python-untuk-jaringan)
 3. [Instalasi Python](#3-instalasi-python)
@@ -9,6 +10,12 @@
 6. [Contoh Program Sederhana untuk Jaringan](#6-contoh-program-sederhana-untuk-jaringan)
 7. [Latihan](#7-latihan)
 8. [Rangkuman](#8-rangkuman)
+
+### Bab 2 – Tipe Data dan Variabel
+9. [Tipe Data Dasar di Python](#9-tipe-data-dasar-di-python)
+10. [Variabel](#10-variabel)
+11. [Latihan Bab 2](#11-latihan-bab-2)
+12. [Rangkuman Bab 2](#12-rangkuman-bab-2)
 
 ---
 
