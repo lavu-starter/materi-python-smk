@@ -1,0 +1,6 @@
+Rangkuman
+1.Python mudah dipelajari dan memiliki banyak library untuk administrasi jaringan.
+
+2.Bisa digunakan di berbagai sistem operasi.
+
+3.Cocok untuk otomatisasi, monitoring, dan analisis data jaringan.

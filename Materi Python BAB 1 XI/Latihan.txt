@@ -1,0 +1,4 @@
+Latihan
+1.Tulis program Python yang menampilkan nama dan kelas kamu.
+
+2.Modifikasi program ping di atas untuk memeriksa lebih dari satu IP.
